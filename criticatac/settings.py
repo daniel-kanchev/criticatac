@@ -4,5 +4,5 @@ NEWSPIDER_MODULE = 'criticatac.spiders'
 ROBOTSTXT_OBEY = True
 LOG_LEVEL = 'WARNING'
 ITEM_PIPELINES = {
-   'criticatac.pipelines.CriticatacPipeline': 300,
+   'criticatac.pipelines.DatabasePipeline': 300,
 }
